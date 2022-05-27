@@ -1,6 +1,17 @@
+import Menu_right from "./Menu_right.js";
+
 const element = (
   <React.Fragment>
-    <h1>Reactの導入成功！</h1>
+    <div className="menu_area_left">
+      <a href="index.html">
+        <img
+          className="logo"
+          src="images/logo.png"
+          alt="神奈川工科大学 第46回 幾徳祭"
+        ></img>
+      </a>
+    </div>
+    <menu_right />
   </React.Fragment>
 );
 
