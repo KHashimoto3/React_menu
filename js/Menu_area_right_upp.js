@@ -36,20 +36,6 @@ export default function Menu_area_right_upp() {
       "div",
       { className: "pc_button_area" },
       React.createElement(
-        "section",
-        { id: "pc_change_lang" },
-        React.createElement(
-          "a",
-          { href: "#", className: "boxbutton_hover", onClick: trans_eng },
-          React.createElement(
-            "div",
-            { className: "pc_button_small_box", id: "pc_button_small_box1" },
-            React.createElement("i", { className: "fas fa-globe" }),
-            "ENGLISH"
-          )
-        )
-      ),
-      React.createElement(
         "a",
         { href: "contact.html", className: "boxbutton_hover" },
         React.createElement(

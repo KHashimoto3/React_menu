@@ -23,13 +23,6 @@ export default function Menu_area_right_upp() {
         </ul>
       </div>
       <div className="pc_button_area">
-        <section id="pc_change_lang">
-          <a href="#" className="boxbutton_hover" onClick={trans_eng}>
-            <div className="pc_button_small_box" id="pc_button_small_box1">
-              <i className="fas fa-globe"></i>ENGLISH
-            </div>
-          </a>
-        </section>
         <a href="contact.html" className="boxbutton_hover">
           <div className="pc_button_small_box" id="pc_button_small_box2">
             <i className="far fa-envelope"></i>CONTACT
