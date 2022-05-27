@@ -11,7 +11,7 @@ const element = (
         ></img>
       </a>
     </div>
-    <menu_right />
+    <Menu_right />
   </React.Fragment>
 );
 
