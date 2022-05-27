@@ -1,0 +1,346 @@
+.menu_area {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 998;
+}
+.menu_area_left {
+  text-align: center;
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+.menu_area_right {
+  text-align: center;
+  width: 70%;
+  height: 100%;
+  margin-left: 30%;
+}
+.menu_area_right_upp {
+  text-align: right;
+  width: 100%;
+  height: 40%;
+}
+.pc_button_area {
+  width: 80%;
+  height: auto;
+  margin-left: 50%;
+}
+/*ボックスボタンの設定*/
+.pc_menu_bottom_area {
+  text-align: left;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+.pc_button,
+.pc_button_box {
+  display: inline-block;
+  display: table-cell;
+  /*上下中央*/
+  outline: none;
+  /*アウトラインを表示しない*/
+  width: 100px;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  /*上下中央に配置する*/
+  font-family: sans-serif;
+  font-size: 18px;
+  color: black;
+  border-radius: 10px;
+  padding-top: 10px;
+  float: left;
+}
+.pc_button_box {
+  background-color: white;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.pc_button_box:hover {
+  color: black;
+  background-color: #badaff;
+  /*薄いblue*/
+}
+.pc_button_small,
+.pc_button_small_box {
+  display: inline-block;
+  display: table-cell;
+  /*上下中央*/
+  outline: none;
+  /*アウトラインを表示しない*/
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  /*上下中央に配置する*/
+  font-family: sans-serif;
+  font-size: 18px;
+  color: black;
+  padding-top: 8px;
+  float: left;
+  margin: 0 0 0 auto;
+}
+.pc_button_small_box {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.pc_button_small_box:hover {
+  color: black;
+  background-color: #badaff;
+  /*薄いblue*/
+}
+
+#pc_button_small_box1 {
+  background-color: rgba(77, 196, 255, 1);
+}
+#pc_button_small_box2 {
+  background-color: rgba(255, 128, 130);
+}
+#pc_button_small_box3 {
+  background-color: rgba(198, 198, 198, 1);
+}
+
+/*イベント　ラージボタン*/
+.event_search_button,
+.event_search_button_box {
+  display: inline-block;
+  display: table-cell;
+  /*上下中央*/
+  outline: none;
+  /*アウトラインを表示しない*/
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  vertical-align: middle;
+  /*上下中央に配置する*/
+  font-family: sans-serif;
+  font-size: 22pt;
+  color: black;
+  border-radius: 10px;
+  padding-top: 2px;
+  margin: 0 auto;
+}
+.event_search_button_box {
+  background-color: white;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.event_search_button_box:hover {
+  background-color: #badaff;
+  /*薄いblue*/
+}
+.event_panf_button,
+.event_panf_button_box {
+  display: inline-block;
+  display: table-cell;
+  /*上下中央*/
+  outline: none;
+  /*アウトラインを表示しない*/
+  width: 250px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  /*上下中央に配置する*/
+  font-family: sans-serif;
+  font-size: 22pt;
+  color: black;
+  border-radius: 10px;
+  padding-top: 2px;
+  margin: 0 auto;
+}
+.event_panf_button_box {
+  background-color: #bae0ff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.event_panf_button_box:hover {
+  background-color: #4990ff;
+  /*薄いblue*/
+}
+/*SNSボタン*/
+div.sns_button_area_pc {
+  text-align: center;
+  width: 25%;
+  height: 40%;
+  float: left;
+  margin-left: 20%;
+}
+/* ボタン全体 */
+.flowbtn9 {
+  display: inline-block;
+  font-size: 30px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+/* Twitter */
+.flowbtn9 .fa-twitter-square {
+  color: #55acee;
+}
+/* Instagram */
+.flowbtn9 .fa-instagram {
+  color: #c6529a;
+}
+/* Facebook*/
+.flowbtn9 .fa-facebook-square {
+  color: #3b5998;
+}
+/* Feedly */
+.flowbtn9 .fa-rss-square {
+  color: #6cc655;
+}
+/* Pocket */
+.flowbtn9 .fa-get-pocket {
+  color: #ef3f56;
+}
+/* はてブ */
+.flowbtn9 .fa-bootstrap {
+  color: #1ba5dc;
+}
+/* YouTube */
+.flowbtn9 .fa-youtube-square {
+  color: #fc0d1c;
+}
+/* LINE@ */
+.flowbtn9 .fa-line {
+  color: #00c300;
+}
+/* お問い合わせメール */
+.flowbtn9 .fa-envelope-square {
+  color: #f3981d;
+}
+/* ulタグの内側余白を０にする */
+ul.snsbtniti {
+  padding: 0 !important;
+  list-style-type: none !important;
+  width: 50%;
+  margin: 0 auto;
+}
+/* アイコン全体の位置 */
+.snsbtniti {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 3px 0 0 0;
+}
+/* アイコン同士の余白 */
+.snsbtniti li {
+  flex: 0;
+  text-align: center !important;
+}
+/* アイコンにマウスを乗せた時 */
+.flowbtn9:hover {
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.menu_area_right_low {
+  text-align: center;
+  width: 100%;
+  padding: 10px 10px 0 10px;
+  height: 45px;
+}
+.header__menu {
+  position: relative;
+  width: 98%;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+.header__menu li {
+  display: inline-block;
+  padding: 9px 20px;
+}
+/*
+.header__menu li a:hover {
+    border-bottom: 2px solid #426dd8;
+}
+*/
+ul.mega__menu-second {
+  visibility: hidden;
+  opacity: 0;
+}
+.header__menu li:hover {
+  background: #0174ff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/*展開したサブメニューの設定*/
+li.mega__menu ul.mega__menu-second {
+  position: absolute;
+  top: 30px;
+  left: -43%;
+  width: 143%;
+  height: 40px;
+  background-color: white;
+  padding: 1px;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+}
+li.mega__menu:hover ul.mega__menu-second {
+  top: 55px;
+  height: 300px;
+  visibility: visible;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+div.menu_second_inner {
+  width: 100%;
+  height: 100%;
+}
+div.menu_second_inner_left {
+  width: 30%;
+  height: 100%;
+  padding: 20px 10px;
+  float: left;
+}
+div.menu_second_inner_right {
+  width: 30%;
+  height: 100%;
+  padding: 20px 10px;
+  float: left;
+}
+div.menu_second_inner_right_live {
+  width: 20%;
+  height: 100%;
+  padding: 20px 5px;
+  float: left;
+}
+p.menu_text_large {
+  font-size: 18pt;
+  color: #005ac2;
+  text-decoration: none;
+  margin: 0;
+  font-family: a-otf-ud-shin-maru-go-pr6n, sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+}
+p.menu_text_midle {
+  text-align: left;
+  font-size: 18pt;
+  color: rgba(0, 127, 255, 1);
+}
+p.menu_text_small {
+  text-align: center;
+  font-size: 16pt;
+  color: black;
+  line-height: 40px;
+}
+p.menu_text_desc {
+  text-align: left;
+  font-size: 14pt;
+  color: black;
+}
